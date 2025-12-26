@@ -25,6 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" className="scroll-smooth">
+      <head>
+        <meta name="facebook-domain-verification" content="dggwgxbpy0g2yr91djnreqf6g06drx" />
+      </head>
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
           {children}
